@@ -17,12 +17,12 @@ if(ini.value.length == 0 || fim.value.length == 0 || passo.value.length == 0 ){
   
    
     if(i < f){
-            for(c = i; c <= f; c = (c+p)){
-                res.innerHTML += ` ${c} `     
+            for(c = i; c <= f; c += p){
+                res.innerHTML += ` ${c}\u{1F449} `     
             }
         }else if(i > f){
-            for(c = i; c >= f; c = (c-p)){
-                res.innerHTML += ` ${c} `
+            for(c = i; c >= f; c -= p ){
+                res.innerHTML += ` ${c} \u{1F449} `
             }
         }  
 }
