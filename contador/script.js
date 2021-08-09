@@ -10,8 +10,8 @@ function contar(){
     if( n1 == 0 || n2 == 0 || passo == 0){
         alert('[ERRO] Corrija os valores!')
     }else{
-        for(var c = 1; ){
-
+        for(var c = n1; c <= n2; c = passo  ){
+          res.innerHTML=`${c}`  
         }
     }
       
