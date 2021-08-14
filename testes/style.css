@@ -1,0 +1,23 @@
+body{
+    background: rgb(103, 135, 145);
+   
+}
+
+header{
+    text-align: center;
+}
+
+section{
+    background:white;
+    width: 500px;
+    margin:auto;
+    border-radius:10px;
+    padding:10px;
+}
+
+
+
+
+footer{
+    text-align: center;
+}
